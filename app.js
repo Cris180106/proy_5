@@ -15,8 +15,8 @@ const main = async () => {
     text.mostrarNombreSecuencial(nombreCompleto);
     text.mostrarNombreSecuencialImvertido(nombreCompleto);
 
-    console.log(`${nombres.toUpperCase().magenta} ${apellidos.toUpperCase().gray}`);
-    console.log(`${nombres.toLowerCase().magenta} ${apellidos.toLowerCase().gray}`);
+    console.log(`${nombres.toUpperCase().magenta} ${apellidos.toUpperCase().green}`);
+    console.log(`${nombres.toLowerCase().magenta} ${apellidos.toLowerCase().green}`);
     console.log(nombreCompleto.blue);
 };
 
